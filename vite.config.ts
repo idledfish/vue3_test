@@ -7,6 +7,7 @@ import VueSetupExtend from 'vite-plugin-vue-setup-extend'
 import { viteMockServe } from "vite-plugin-mock";
 //跨域访问
 export default defineConfig({
+  base:'/vue3_test/',
   plugins: [
     vue(),
     viteMockServe({
